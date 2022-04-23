@@ -1,0 +1,268 @@
+body {
+  color: #40514E;
+  background-color: #F7F7F7;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 6rem;
+  margin: 1.25rem auto 0rem auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 0.625rem;
+  margin-top: 0rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: .3125rem;
+  border-color: #DCDCDC;
+  width: 3%;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: .625rem 1.25rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+}
+
+table tr:nth-child(odd) {
+  background-color: #E4F9F5;
+}
+
+table tr:nth-child(even) {
+  background-color: #FEFBF3;
+}
+
+table td:nth-child(1) {
+  font-weight: bold;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 3.125rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 18.75rem;
+  top: 1.25rem;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 18.75rem;
+  left: 18.75rem;
+}
+
+.middle-container {
+  margin: 6.25rem 0;
+}
+
+.skills {
+  margin: 4rem 4rem 0 4rem;
+  text-align: left;
+}
+
+.work-experience {
+  margin: 4rem 4rem 0 4rem;
+  text-align: left;
+}
+
+.Projects {
+  position: relative;
+  text-align: left;
+  margin: 4rem 4rem 0 4rem;
+  height: 64.5rem;
+}
+
+.Projects-row1 {
+  position: absolute;
+  width: 70%;
+  text-align: left;
+  line-height: 2;
+  left: 4rem;
+}
+
+.Projects-row2 {
+  position: absolute;
+  width: 70%;
+  text-align: left;
+  line-height: 2;
+  right: 4rem;
+  top: 19.75rem;
+}
+
+.Projects-row3 {
+  position: absolute;
+  width: 70%;
+  text-align: left;
+  line-height: 2;
+  top: 34.75rem;
+  left: 4rem;
+}
+
+.Projects-row4 {
+  position: absolute;
+  width: 70%;
+  text-align: left;
+  line-height: 2;
+  right: 4rem;
+  top: 53.75rem;
+}
+
+.project-right-img {
+  border-radius: 100%;
+  height: 6%;
+  width: 6%;
+  float: right;
+  margin-left: 1.875rem;
+}
+
+.project-left-img {
+  border-radius: 100%;
+  height: 6%;
+  width: 6%;
+  float: left;
+  margin-right: 1.875rem;
+}
+
+.education {
+  margin: 4rem 4rem 0 4rem;
+  text-align: left;
+}
+
+.certifications {
+  margin: 4rem 4rem 0 4rem;
+  text-align: left;
+}
+
+.achievements {
+  margin: 4rem 4rem 0 4rem;
+  text-align: left;
+}
+
+.curricular {
+  margin: 4rem 4rem 0 4rem;
+  text-align: left;
+}
+
+.interpersonal {
+  margin: 4rem 4rem 0 4rem;
+  text-align: left;
+}
+
+.intrests {
+  margin: 4rem 4rem 0 4rem;
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 1.25rem 0 0.5rem;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 2.5rem auto 3.75rem;
+}
+
+.contact-me {
+  margin: 4rem 4rem 0 4rem;
+  padding-bottom: 1rem;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 1.25rem 0;
+}
+
+.profile {
+  position: relative;
+  text-align: left;
+  margin: 0 4rem 0 4rem;
+}
+
+.sandeep-img {
+  position: absolute;
+  border-radius: 100%;
+  bottom: 34.375rem;
+  right: 3.125rem;
+  height: 150%;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 1.25rem;
+  padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
